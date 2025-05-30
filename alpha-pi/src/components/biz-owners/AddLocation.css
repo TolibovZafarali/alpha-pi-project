@@ -1,0 +1,87 @@
+.add-location-main {
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+.add-location-main h1 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 1.75rem;
+    color: black;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 8px;
+}
+  
+.add-location-form {
+    display: grid;
+    gap: 16px;
+}
+  
+.add-location-form .form-label {
+    display: block;
+    font-weight: 500;
+    color: #555;
+}
+  
+.add-location-form .form-label > input,
+.add-location-form .form-label > select,
+.add-location-form .form-label > textarea {
+    width: 100%;
+    margin-top: 6px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+
+  .add-location-form .form-label > input:focus,
+  .add-location-form .form-label > select:focus,
+  .add-location-form .form-label > textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid black;
+}
+  
+.add-location-form h3 {
+    margin: 24px 0 8px;
+    font-size: 1.25rem;
+    color: black;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 4px;
+}
+  
+.add-location-form ul {
+    margin: 8px 0 0 20px;
+    padding: 0;
+    list-style-type: disc;
+    color: #666;
+    font-size: 0.9rem;
+}
+  
+.form-actions {
+    margin-top: 24px;
+}
+  
+.form-actions .btn.submit-btn {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+  
+.form-actions .btn.submit-btn:hover:not(:disabled) {
+    opacity: 0.9;
+}
+  
+.form-actions .btn.submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+  

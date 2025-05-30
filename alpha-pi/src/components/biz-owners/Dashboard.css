@@ -1,0 +1,136 @@
+.dashboard-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .preview-profile,
+  .fill-profile {
+    flex: 1 1 400px;
+    max-width: 600px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+  
+  .preview-profile,
+  .navigator {
+    height: auto;
+  }
+  
+  .biz-section {
+    margin-bottom: 1.5rem;
+  }
+  
+  .biz-section p {
+    margin: 0;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .biz-section h1 {
+    margin: 0.25rem 0 0.5rem;
+    font-size: 1.5rem;
+    color: #111;
+  }
+  
+  .logo-preview img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .preview-profile form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .preview-profile label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .preview-profile input[type="text"],
+  .preview-profile input[type="email"],
+  .preview-profile input[type="number"],
+  .preview-profile select,
+  .preview-profile textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+  }
+  
+  .preview-profile input:focus,
+  .preview-profile select:focus,
+  .preview-profile textarea:focus {
+    outline: none;
+    border-color: #000;
+  }
+  
+  .preview-profile textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .preview-profile input[type="submit"] {
+    appearance: none;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    align-self: flex-end;
+  }
+  
+  .preview-profile input[type="submit"]:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .preview-profile input[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .preview-profile > div > button {
+    appearance: none;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+  }
+  
+  .preview-profile > div > button:hover {
+    background-color: #000;
+    color: #fff;
+    transform: translateY(-1px);
+  }
+
+.user-not-found {
+  width: 300px;
+  margin: auto;
+  margin-top: 200px;
+}

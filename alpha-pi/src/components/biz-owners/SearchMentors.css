@@ -1,0 +1,37 @@
+.search-mentors-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+  }
+  
+  .mentor-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: transform 150ms ease;
+    margin: 10px;
+    height: 350px;
+  }
+  .mentor-card:hover {
+    transform: translateY(-2px);
+  }
+  
+  .mentor-card.available {
+    border-left: 4px solid #28a745;
+  }
+  .mentor-card.unavailable {
+    border-left: 4px solid #dc3545;
+    opacity: 0.85;
+  }
+  
+  .mentor-card img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+  }
