@@ -1,0 +1,103 @@
+.welcome-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    max-width: 1000px;
+    backdrop-filter: blur(3px);
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  
+  .start-business-btn {
+    appearance: none;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    width: 180px;
+  }
+  
+  .start-business-btn:disabled {
+    pointer-events: none;
+  }
+  
+  .start-business-btn:hover {
+    box-shadow: black 0 8px 15px;
+    transform: translateY(-2px);
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+  }
+  
+  .start-business-btn:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .invest-btn {
+    appearance: none;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    width: 180px;
+  }
+  
+  .invest-btn:disabled {
+    pointer-events: none;
+  }
+  
+  .invest-btn:hover {
+    box-shadow: black 0 8px 15px;
+    transform: translateY(-2px);
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+  }
+  
+  .invest-btn:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }

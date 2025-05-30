@@ -1,0 +1,42 @@
+[
+    {
+        "name": "John Doe",
+        "img": "https://media.istockphoto.com/id/1364917563/photo/businessman-smiling-with-arms-crossed-on-white-background.jpg?s=612x612&w=0&k=20&c=NtM9Wbs1DBiGaiowsxJY6wNCnLf0POa65rYEwnZymrM=",
+        "industry": "Franchising",
+        "available": true,
+        "email": "john.doe@business.com",
+        "phone": "314-333-4576"
+    },
+    {
+        "name": "Kendall Roy",
+        "img": "https://media.pitchfork.com/photos/5ec5aa8b91dbebb858d7e7d0/master/pass/kendall-roy.jpg",
+        "industry": "Entertainment",
+        "available": false,
+        "email": "kendall.roy@business.com",
+        "phone": "314-444-7777"
+    },
+    {
+        "name": "Gustavo Fring",
+        "img": "https://cdn.mos.cms.futurecdn.net/GE3y82v6CvSk28LXv2zRPm-1200-80.jpg",
+        "industry": "Food",
+        "available": false,
+        "email": "gustavo.fring@business.com",
+        "phone": "314-888-5432"
+    },
+    {
+        "name": "John Smith",
+        "img": "https://www.center4research.org/wp-content/uploads/2020/10/shutterstock_262840061-scaled.jpg",
+        "industry": "Finance",
+        "available": true,
+        "email": "john.smith@business.com",
+        "phone": "314-333-9900"
+    },
+    {
+        "name": "Gabe Newell",
+        "img": "https://nationaltoday.com/wp-content/uploads/2022/10/24-Gabe-Newell-1200x834.jpg",
+        "industry": "Entertainment",
+        "available": false,
+        "email": "gabe.newell@business.com",
+        "phone": "123-321-7685"
+    }
+]

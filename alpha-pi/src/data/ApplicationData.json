@@ -1,0 +1,10 @@
+{
+    "nameOfBusiness": "",
+    "description": "",
+    "industry": [ "Bakery", "Finance" ],
+    "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+    }
+}

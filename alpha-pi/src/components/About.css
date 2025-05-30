@@ -1,0 +1,71 @@
+.about-us-main {
+    background: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-content h1,
+  .about-us-content h2 {
+    color: #222;
+    margin-bottom: 16px;
+  }
+  
+  .about-us-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .about-us-content h2 {
+    font-size: 1.75rem;
+  }
+  
+  .about-us-content p {
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 30px 0;
+  }
+  
+  .about-us-content ol,
+  .about-us-content ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content ol li {
+    margin-bottom: 16px;
+  }
+  
+  .about-us-content ul li {
+    margin-bottom: 8px;
+  }
+  
+  .about-us-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .about-us-content table th,
+  .about-us-content table td {
+    border: 1px solid #e0e0e0;
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  .about-us-content table th {
+    background: #f2f2f2;
+  }
+  
+  @media (max-width: 768px) {
+    .about-us-content h1 {
+      font-size: 2rem;
+    }
+    .about-us-content h2 {
+      font-size: 1.5rem;
+    }
+  }
+  

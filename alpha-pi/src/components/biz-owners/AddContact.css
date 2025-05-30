@@ -1,0 +1,60 @@
+  .my-contacts-main {
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .contact-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+    margin: 10px;
+  }
+  
+  .my-contact {
+    background: #fafafa;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .my-contact:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .my-contact img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 12px;
+  }
+  
+  .my-contact h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .my-contact p {
+    margin: 4px 0;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .my-contact button {
+    align-self: flex-end;
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+  }
+  .my-contact button:hover {
+    opacity: 0.9;
+  }

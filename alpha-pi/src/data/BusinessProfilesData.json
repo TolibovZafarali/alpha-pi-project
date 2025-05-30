@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Creona",
+    "description": "A cozy artisan bakery specializing in wedding cakes and handcrafted pastries made from organic, locally-sourced ingredients.",
+    "logo": "/images/creona-logo.svg"
+  },
+  {
+    "name": "GreenStitch",
+    "description": "A sustainable fashion startup that repurposes vintage clothing into modern streetwear, promoting zero-waste practices.",
+    "logo": "/images/greenstitch-logo.svg"
+  },
+  {
+    "name": "ByteBuddies",
+    "description": "An after-school coding club for kids aged 8-14 that teaches game development, robotics, and creative problem-solving.",
+    "logo": "/images/bytebuddies-logo.svg"
+  },
+  {
+    "name": "BloomWell",
+    "description": "A mental wellness café that offers guided journaling sessions, mindfulness workshops, and healthy drinks.",
+    "logo": "/images/bloomwell-logo.svg"
+  },
+  {
+    "name": "SnapEats",
+    "description": "A cloud kitchen concept delivering high-quality, chef-prepared meals through a subscription model in underserved urban areas.",
+    "logo": "/images/snapeats-logo.svg"
+  },
+  {
+    "name": "Craftory",
+    "description": "An online marketplace connecting handmade product creators with customers, featuring workshops, mentoring, and logistics support.",
+    "logo": "/images/craftory-logo.svg"
+  }
+]

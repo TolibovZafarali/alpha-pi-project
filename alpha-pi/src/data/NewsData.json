@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "MA small businesses say they're drowning in high costs. How they say state can help.",
+        "company": "MetroWest Daily News",
+        "link": "https://www.metrowestdailynews.com/story/business/2025/05/22/study-ma-small-business-seek-legislative-relief-from-rising-costs/83717298007/"
+    },
+    {
+        "id": 2,
+        "title": "New Amazon report shows small businesses have created millions of US jobs and built thriving communities.",
+        "company": "About Amazon",
+        "link": "https://www.aboutamazon.com/news/small-business/amazon-2024-small-business-empowerment-report"
+    },
+    {
+        "id": 3,
+        "title": "Obama Foundation partner launches shared vendor network for small businesses.",
+        "company": "Chicago Sun-Times",
+        "link": "https://chicago.suntimes.com/small-business/2025/05/22/obama-foundation-emerald-south-shared-vendor-network-small-businesses"
+    },
+    {
+        "id": 4,
+        "title": "Keep raises C$108M to Transform Small Business Banking in Canada.",
+        "company": "Financial IT",
+        "link": "https://financialit.net/news/fundraising-news/keep-raises-c108m-transform-small-business-banking-canada"
+    },
+    {
+        "id": 5,
+        "title": "Detroit aims to reduce bureaucracy for restaurants, small businesses.",
+        "company": "The Detroit News",
+        "link": "https://www.detroitnews.com/story/business/2025/05/21/detroit-aims-to-reduce-bureaucracy-for-restaurants-small-businesses/83771290007/"
+    }
+]
