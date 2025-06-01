@@ -4,6 +4,7 @@ import Header from "../Header";
 import { getItem, setItem } from "../utils/localStorage";
 import { useState } from "react";
 import BackToDashboard from "./BackToDashboard";
+import "./PossibleLocations.css"
 
 const PossibleLocations = () => {
     

@@ -64,7 +64,7 @@ const AddLocation = () => {
                             onChange={e => setCity(e.target.value)}
                         />
                     </label>
-                    <label className="form-label">State
+                    <label className="form-label">State:
                         <select value={selectedState} onChange={e => setSelectedState(e.target.value)}>
                             {states.map((state) => (
                                 <option key={state.id} value={state.state}>{state.state}</option>
@@ -72,7 +72,7 @@ const AddLocation = () => {
                         </select>
                     </label>
 
-                    <label className="form-label">
+                    <label className="form-label">Zip Code:
                         <input
                             type="number"
                             value={zipCode}

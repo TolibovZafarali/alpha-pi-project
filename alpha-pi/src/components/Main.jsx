@@ -5,7 +5,7 @@ const Main = () => {
     return (
         <main className="home-page">
             <div className="welcome-text">
-                <h2>Start Your LLC or Invest in One That Matters.</h2>
+                <h2>Start Your Business or Invest in One That Matters.</h2>
                 <p>Whether you're building from scratch or investing in tomorrow's success — <strong>Alpha-Pi</strong> brings ideas to life.</p>
                 <br />
                 <hr />
