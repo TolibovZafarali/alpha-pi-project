@@ -1,0 +1,54 @@
+.business-profile-main {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.business-profile-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    padding: 2rem;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.business-profile-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.business-profile-card h1 {
+    margin: 0 0 1rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.business-profile-card .industry {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.business-profile-card hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 1rem 0;
+}
+
+.contact-section {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.contact-section h2 {
+    margin-bottom: 0.5rem;
+}
+
+.contact-section p {
+    margin: 4px 0;
+    color: #555;
+}

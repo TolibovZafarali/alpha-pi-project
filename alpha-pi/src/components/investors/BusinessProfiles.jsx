@@ -1,7 +1,8 @@
 import Footer from "../Footer";
 import Header from "../Header";
-import data from "../../data/BusinessProfilesData.json"
+import data from "../../data/BusinessProfilesData.json";
 import { getItem } from "../utils/localStorage";
+import { Link } from "react-router-dom";
 
 const BusinessProfiles = () => {
     
@@ -19,23 +20,27 @@ const BusinessProfiles = () => {
                 
                 
                 <div>
-                    {users && postedProfiles.map(profile => (
-                        <div className="business-profile-btn">
-                            <img src={profile.logoURL} />
-                            <h2>{profile.nameOfBiz}</h2>
-                            <hr />
-                            <p>{profile.description}</p>
-                        </div>
+                    {postedProfiles.map(profile => (
+                        <Link to={`/business-profiles/${profile.nameOfBiz}`} key={`user-${profile.nameOfBiz}`}>
+                            <div className="business-profile-btn">
+                                <img src={profile.logoURL} />
+                                <h2>{profile.nameOfBiz}</h2>
+                                <hr />
+                                <p>{profile.description}</p>
+                            </div>
+                        </Link>
 
                     ))}
-                    
-                    {data.map(profile => (  
+
+                    {data.map(profile => (
+                        <Link to={`/business-profiles/${profile.name}`} key={`static-${profile.name}`}>
                             <div className="business-profile-btn">
                                 <img src={profile.logo} />
                                 <h2>{profile.name}</h2>
                                 <hr />
                                 <p>{profile.description}</p>
                             </div>
+                        </Link>
                     ))}
                 </div>
             </main>
@@ -44,5 +49,4 @@ const BusinessProfiles = () => {
         </div>
     );
 }
- 
-export default BusinessProfiles;
+ export default BusinessProfiles;
