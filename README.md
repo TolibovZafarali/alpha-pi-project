@@ -37,7 +37,14 @@ The Netlify configuration is stored in `alpha-pi/netlify.toml`.
    npm install
    ```
 
-2. Run the development server:
+2. Create a `.env` file and provide a GNews API key:
+
+   ```bash
+   cp .env.example .env
+   # open the file and replace "your_api_key_here" with your real key
+   ```
+
+3. Run the development server:
 
    ```bash
    npm run dev
@@ -45,7 +52,7 @@ The Netlify configuration is stored in `alpha-pi/netlify.toml`.
 
    Vite will start the app on [http://localhost:5173](http://localhost:5173).
 
-3. Build for production:
+4. Build for production:
 
    ```bash
    npm run build
@@ -57,7 +64,7 @@ The Netlify configuration is stored in `alpha-pi/netlify.toml`.
    npm run preview
    ```
 
-4. Lint the project:
+5. Lint the project:
 
    ```bash
    npm run lint
