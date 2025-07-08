@@ -94,7 +94,7 @@ const Dashboard = () => {
     const handleSave = (e) => {
         e.preventDefault();
 
-        if (users[index] !== -1) {
+        if (index !== -1) {
             users[index] = {
                 ...users[index],
                 nameOfBiz,
