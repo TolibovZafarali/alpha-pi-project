@@ -11,7 +11,7 @@ const Dashboard = () => {
     
     const { username } = useParams();
     
-    const users = getItem("users");
+    const users = getItem("users") || [];
     const index = users.findIndex(user => user.userName === username);
 
     
