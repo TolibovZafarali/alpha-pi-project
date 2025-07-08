@@ -15,7 +15,7 @@ const News = () => {
                 return
             }
 
-            const API_URL = `https://gnews.io/api/v4/search?q=small%20business&lang=en&token=${apiKey}`
+            const API_URL = `https://gnews.io/api/v4/search?q=small%20business&lang=en&token=c8cdbfdf256214cd0512924f9a5d73a0`
 
             try {
                 const res = await fetch(API_URL)
