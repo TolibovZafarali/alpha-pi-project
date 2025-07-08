@@ -58,4 +58,6 @@ const News = () => {
             <Footer />
         </div>
     )
-}export default News;
+}
+
+export default News;
