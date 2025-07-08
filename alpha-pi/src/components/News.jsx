@@ -9,13 +9,13 @@ const News = () => {
 
     useEffect(() => {
         const fetchNews = async () => {
-            const apiKey = import.meta.env.VITE_GNEWS_API_KEY;
+            const apiKey = import.meta.env.VITE_GNEWS_API_KEY;            ;
             if (!apiKey) {
                 console.error("API key is missing");
                 return;
             }
 
-            const API_URL = `https://gnews.io/api/v4/search?q=small%20business&lang=en&token=${apiKey}`;
+            const API_URL = `https://gnews.io/api/v4/search?q=small+business&lang=en&apikey=${apiKey}`;
 
             try {
                 const res = await fetch(API_URL);
