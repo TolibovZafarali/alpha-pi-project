@@ -12,8 +12,22 @@ const AddLocation = () => {
 
     const { username } = useParams();
 
-    const users = getItem("users");
+    const users = getItem("users") || [];
     const index = users.findIndex(user => user.userName === username);
+
+    if (index === -1) {
+        return (
+            <div className="wrapper">
+                <Header />
+
+                <main>
+                    <h1 className="user-not-found">USER NOT FOUND</h1>
+                </main>
+
+                <Footer />
+            </div>
+        );
+    }
     
     const [ possibleLocations, setPossibleLocations ] = useState(users[index].possibleLocations || []);
     

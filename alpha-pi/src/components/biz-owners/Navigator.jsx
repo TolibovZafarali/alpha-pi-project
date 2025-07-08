@@ -5,8 +5,12 @@ import "./ToggleSwitch.css"
 
 const Navigator = ({ username }) => {
     
-    const users = getItem("users");
+    const users = getItem("users") || [];
     const index = users.findIndex(user => user.userName === username);
+
+    if (index === -1) {
+        return null;
+    }
 
     const [ posted, setPosted ] = useState(users[index]?.posted || false);
 
