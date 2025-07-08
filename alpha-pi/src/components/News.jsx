@@ -4,13 +4,19 @@ import Footer from "./Footer"
 import Header from "./Header"
 import "./News.css"
 
-const API_URL = `https://gnews.io/api/v4/search?q=small%20business&lang=en&token=${import.meta.env.VITE_GNEWS_API_KEY}`
-
 const News = () => {
     const [ articles, setArticles ] = useState([])
 
     useEffect(() => {
         const fetchNews = async () => {
+            const apiKey = import.meta.env.VITE_GNEWS_API_KEY
+            if (!apiKey) {
+                setArticles(backupData)
+                return
+            }
+
+            const API_URL = `https://gnews.io/api/v4/search?q=small%20business&lang=en&token=${apiKey}`
+
             try {
                 const res = await fetch(API_URL)
                 if (!res.ok) throw new Error('Failed to fetch')
@@ -52,5 +58,4 @@ const News = () => {
             <Footer />
         </div>
     )
-}
- export default News;
+}export default News;

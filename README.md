@@ -41,7 +41,7 @@ The Netlify configuration is stored in `alpha-pi/netlify.toml`.
 
    ```bash
    cp .env.example .env
-   # edit .env and set VITE_GNEWS_API_KEY
+   # open the file and replace "your_api_key_here" with your real key
    ```
 
 3. Run the development server:
