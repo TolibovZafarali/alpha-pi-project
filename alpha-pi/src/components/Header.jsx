@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header>
                 <StyledLink destination={"/"}>
-                    <img src="/black-logo.svg" alt="alpha-pi logo"></img>
+                    <img src="/transparent.svg" alt="alpha-pi logo"></img>
                 </StyledLink>
                 <div className="separator"></div>
                 <h1>Alpha-Pi</h1>
